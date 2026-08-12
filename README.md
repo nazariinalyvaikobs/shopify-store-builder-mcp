@@ -9,7 +9,7 @@ Credentials stay on your machine. The server runs locally and talks directly to 
 ## Demo
 
 
-[https://github.com/user-attachments/assets/175e5051-b6ec-4201-a33e-d27c68356171](https://github.com/user-attachments/assets/afd71d46-e8d7-4c06-96dc-094cae3fe5a2)
+https://github.com/user-attachments/assets/afd71d46-e8d7-4c06-96dc-094cae3fe5a2
 
 
 ## Quick start
