@@ -1,7 +1,5 @@
 # shopify-store-builder-mcp
 
-<!-- banner: before/after store result -->
-
 MCP server for building Shopify stores with AI. Gives Claude Code, Cursor, and other MCP clients tools to edit themes, pages, and navigation on one Shopify store via the Admin GraphQL API.
 
 Credentials stay on your machine. The server runs locally and talks directly to Shopify.
