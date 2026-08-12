@@ -1,0 +1,32 @@
+{
+  "name": "shopify-store-builder-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for building Shopify stores via the Admin GraphQL API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazariinalyvaikobs/shopify-store-builder-mcp.git"
+  },
+  "homepage": "https://github.com/nazariinalyvaikobs/shopify-store-builder-mcp#readme",
+  "bugs": { "url": "https://github.com/nazariinalyvaikobs/shopify-store-builder-mcp/issues" },
+  "type": "module",
+  "bin": { "shopify-store-builder-mcp": "dist/index.js" },
+  "files": ["dist"],
+  "engines": { "node": ">=20" },
+  "keywords": ["mcp", "modelcontextprotocol", "shopify", "shopify-admin-api", "ai"],
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "test": "node --test",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}
