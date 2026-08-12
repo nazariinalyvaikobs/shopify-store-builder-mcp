@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.nazariinalyvaikobs/shopify-store-builder-mcp",
+  "description": "MCP server for building Shopify stores via the Admin GraphQL API: themes, pages, and navigation",
+  "repository": {
+    "url": "https://github.com/nazariinalyvaikobs/shopify-store-builder-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "shopify-store-builder-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "SHOPIFY_STORE_DOMAIN",
+          "description": "Store domain, e.g. my-store.myshopify.com",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": false
+        },
+        {
+          "name": "SHOPIFY_CLIENT_ID",
+          "description": "Dev Dashboard app client ID (option A, recommended)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        },
+        {
+          "name": "SHOPIFY_CLIENT_SECRET",
+          "description": "Dev Dashboard app client secret (option A, recommended)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": true
+        },
+        {
+          "name": "SHOPIFY_ADMIN_ACCESS_TOKEN",
+          "description": "Permanent admin access token shpat_… (option B, instead of client credentials)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

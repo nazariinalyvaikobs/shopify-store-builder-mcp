@@ -1,6 +1,7 @@
 {
   "name": "shopify-store-builder-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.nazariinalyvaikobs/shopify-store-builder-mcp",
   "description": "MCP server for building Shopify stores via the Admin GraphQL API",
   "repository": {
     "type": "git",
